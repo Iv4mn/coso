@@ -1,0 +1,62 @@
+.red-text {
+
+	color: red;
+
+}
+
+  h1 {
+
+  	font-family: Lobster, monospace;
+  	text-align: center;
+  	color:red;
+  }
+
+  p {
+
+  	font-size: 16px;
+
+  }
+
+  .smaller-image {
+
+  	width: 100px;
+
+  }
+
+  .thick-green-border {
+
+  	border-color: red;
+  	border-width: 5px
+  	;border-style: solid;
+
+  }
+
+  a:visited, a:link {
+
+  	background-color: #f44336;
+  	color: white;
+  	padding: 15px 25px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+
+  }
+
+  a:hover{
+
+  	background-color: red;
+
+  }
+
+  body {
+
+  	background-color:#121113;
+  	color:white;
+
+  }
+
+#li1 {
+
+	float:left;
+
+}

@@ -1,66 +1,27 @@
+<!DOCTYPE html>
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="favico.ico" type="image/x-icon">
   <title>La página de los gatos</title>
-<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-<style>
-  .red-text {
-    color: red;
-  }
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="styles.css">
 
-  h1 {
-    font-family: Lobster, monospace;
-    text-align: center;
-
-  }
-
-  p {
-    font-size: 16px;
-  }
-
-  .smaller-image {
-    width: 100px;
-  }
-
-  .thick-green-border {
-    border-color: red;
-    border-width: 5px;
-    border-style: solid;
-  }
-a:visited, a:link {
-   background-color: #f44336;
-  color: white;
-  padding: 15px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-
-a:hover{
-  background-color: red;
-}
-
-body {
-background-color:;
-}
-
-#li1 {float:left;}
-
-</style>
 
 </head>
 
-<body style="background-color:121212;color:white;">
+<body>
 
-<h1 class="red-text"><u>CatPhotoApp</u></h1>
+<h1><u>CatPhotoApp</u></h1>
+
 <main>
-
-<ul>
-
-<li id="li1"type="none"><a href="index.html">Inicio</a></li>
-<li id="li1"type="none"><a href="masfotos.html">Album de fotos de gatos</a></li>
-</ul>
+  <nav>
+    <ul>
+      <li id="li1" type="none"><a href="index.html">Inicio</a></li>
+      <li id="li1" type="none"><a href="masfotos.html">Album de fotos de gatos</a></li>
+    </ul>
+  </nav>
 <br><br><br><br><br>
 <img class="smaller-image thick-green-border"src="https://ichef.bbci.co.uk/news/640/cpsprodpb/18504/production/_90488599_thinkstockphotos_gato6.jpg" width="150px">
 
@@ -90,31 +51,7 @@ background-color:;
     <button type="submit">Enviar</button>
   </form>
 </main>
-
-
 </body>
 
-<div style="color:red;">
-
-<form action="pagina2.html">
-<pre>
-<label><input type="checkbox" name="Pais">Alemania</label>
-<label><input type="checkbox" name="Pais">Argentina</label>
-<label><input type="checkbox" name="Pais">Colombia</label>
-</pre>
-<button type="submit">Enviar</button>
-</form>
-</div>
-
-<form action="/action_page.php">
-<textarea name="note"></textarea>
-</form>
 
 
-<form action="pagina2.html" method="POST">
-  Favorite color:
-  <label for="color"><input id="color" value="blue" type="radio" name="color">Blue</label>
-<label for="color"><input value="red" id="color" type="radio" name="color">Red</label>
-
-  <input type="submit">
-</form>
